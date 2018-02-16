@@ -2,13 +2,13 @@
 
 Los habitantes de *Trigrécuaro* y *Elefantitlán* se encuentran enmedio de una guerra. El mes pasado, *Elefantitlán* puso en órbita de manera exitosa un telescopio satelital espía con el nombre de **Fallascopio**. El propósito del **Fallascopio** era contar el número de *Águilas de Batalla* en *Tigrécuaro*. Sin embargo, el **Fallascopio**, desarrolló dos problemas a causa de un bajo control de calidad en su producción. Su lente primario estaba contaminado con bichos que bloqueaban parte de cada imagen, y su mecanismo de enfoque dejó de funcionar, por lo que las imágenes varían en tamaño y definición.
 
-Los programadores del **Fallascopio** que deben rectificarlo están cautivos en un hotel de **Concurso de Programación** en *Alalandia* y sus captores son elefantes disfrazados de tigres. Las imágenes del **Fallascopio** se guardan pixel por pixel. Cada imagen es un cuadrado de pixeles, y cada pixel es un $1$, si parte o toda un águila está presente, o un $0$ si cualquier otro objeto, incluído un bicho, es visible. Los programadores deben asumir lo siguiente:
+Los programadores del **Fallascopio** que deben rectificarlo están cautivos en un hotel de **Concurso de Programación** en *Alalandia* y sus captores son elefantes disfrazados de tigres. Las imágenes del **Fallascopio** se guardan pixel por pixel. Cada imagen es un cuadrado de pixeles, y cada pixel es un *1*, si parte o toda un águila está presente, o un *0* si cualquier otro objeto, incluído un bicho, es visible. Los programadores deben asumir lo siguiente:
 
 
-  1. Un *Águila de Batalla* se representa con por lo menos un $1$.  
-  2. Celdas con lados adyacentes a vértices en común, que contengan un $1$, representan la misma águila. Una gran imagen compuesta de puros $1$s representa sólo un águila.
+  1. Un *Águila de Batalla* se representa con por lo menos un *1*.  
+  2. Celdas con lados adyacentes a vértices en común, que contengan un *1*, representan la misma águila. Una gran imagen compuesta de puros *1*'s representa sólo un águila.
   3. *Águilas de Batalla* diferentes no se tocan entre sí. Aunque esta suposición probablemente sea falsa, los programadores deben seguirla por su desesperación para resolver el problema.
-  4. La imagen representa un plano. Los pixeles de hasta abajo no son adyacentes a los de hasta arriba, ni los de la izquierda, adyacentes a los de la derecha (a menos, por supuesto, que la imagen sea de $2x2$)
+  4. La imagen representa un plano. Los pixeles de hasta abajo no son adyacentes a los de hasta arriba, ni los de la izquierda, adyacentes a los de la derecha (a menos, por supuesto, que la imagen sea de *2x2*)
   
 ## input / output
 
